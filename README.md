@@ -1,12 +1,3 @@
-# Gulp-Webpack_starter
-gulp watch and webpack starter
+#portfolio-page
 
-
-git clone https://github.com/Arakim44/Gulp-Webpack_starter.git
-
-
-npm install
-
-gulp build
-
-gulp watch
+New and minimalized portfolio from ground up.
