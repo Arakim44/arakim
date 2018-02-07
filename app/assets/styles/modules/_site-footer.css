@@ -1,0 +1,70 @@
+.site-footer {
+    background-color: $grain;
+    color:#fff;
+    padding: 2% 0;
+    widows: 100%;
+    clear:both;
+    /* height:100px; */
+    text-align: center;
+
+    &__content {
+        max-width: 960px;
+        padding: 2% 0;
+        margin:0 auto;
+        font-family: 'Roboto', sans-serif;
+        font-style:normal;
+        font-weight:300;
+        line-height: 1.4;
+        color:#fff;
+        font-size:1em;
+        
+        
+    }
+
+    &__credit p {
+        font-weight: 200;
+    }
+
+    &__social {
+        padding:0;
+    }
+
+    &__social li {
+        display:inline;
+    }
+    
+    
+    
+    @mixin atLarge{
+        height:100px;
+        letter-spacing:.03em;
+        
+            &__credit {
+                float:left;
+                text-align:left;
+        
+            }
+        
+            &__social {
+                float:right;
+        
+            }
+        
+           
+    }
+
+    &__social li a {
+        color: #fff;
+        padding:.2rem;
+        font-size:1.8em;
+        font: weight 600;
+        /* letter-spacing: 1em; */
+        margin-left: 1em;
+    }
+
+    &__social li a:hover {
+        color:$oxblood;
+    }
+
+   
+}

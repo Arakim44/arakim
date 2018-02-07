@@ -1,0 +1,39 @@
+.text-box {
+    float:left;
+    text-align:left;
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    margin-bottom:30px;
+    
+    &__content {
+        padding: 4% 8%;
+    }
+    
+    &__content p {
+        line-height:1.5;
+        color: $blackboard;
+        letter-spacing:.03em;
+        font-size: 1em;
+    }
+
+    /* @mixin atSmall {
+        width:450px;
+    }
+  */
+
+    @mixin atMedium {
+        height:100%;
+        width:350px;
+        margin-bottom:0;
+    }
+    
+    @mixin atLarge {
+        height:100%;
+        width:480px;
+    }
+
+
+
+}
+

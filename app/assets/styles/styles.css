@@ -5,3 +5,10 @@
 @import "modules/_site-header";
 @import "modules/_wrapper";
 @import "modules/_about";
+@import "modules/_work";
+@import "modules/_text-box";
+@import "modules/_button";
+@import "modules/_contact";
+@import "modules/_image-divider";
+@import "modules/_site-footer";
+@import "modules/_list-inline";
