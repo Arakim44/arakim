@@ -623,18 +623,12 @@ h3 {
         height:auto;
     }
 
-/* @mixin atSmall {
-            width:450px;
-    }
- 
-         */
-
 @media(min-width: 700px){
 
 .work__image-area {
             width:350px;
-            height:300px
-            /* overflow:hidden; */
+            height:300px;
+            overflow:hidden
     }
 
             .work__image-area--left{
@@ -663,11 +657,12 @@ h3 {
     width:100%;
     height:auto;
     background-color:#fff;
-    margin-bottom:30px;
 
 
 
 }
+
+/* margin-bottom:30px; */
 
 .text-box__content {
         padding: 4% 8%;
@@ -689,8 +684,8 @@ h3 {
 
 .text-box {
         height:100%;
-        width:350px;
-        margin-bottom:0
+        width:350px
+        /* margin-bottom:0; */
 
 
 

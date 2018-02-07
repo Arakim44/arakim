@@ -4,7 +4,7 @@
     width:100%;
     height:auto;
     background-color:#fff;
-    margin-bottom:30px;
+    /* margin-bottom:30px; */
     
     &__content {
         padding: 4% 8%;
@@ -25,7 +25,7 @@
     @mixin atMedium {
         height:100%;
         width:350px;
-        margin-bottom:0;
+        /* margin-bottom:0; */
     }
     
     @mixin atLarge {
