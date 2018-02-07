@@ -1,0 +1,14 @@
+.wrapper {
+
+    max-width: 350px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+
+    @mixin atSmall {
+        max-width: 700px;
+    }
+
+    @mixin atMedium {
+        max-width: 960px;
+    }
+}

@@ -1,0 +1,50 @@
+.site-header {
+
+    background:
+    linear-gradient(
+        rgba($grain,1.0),
+        rgba($grain,0.40)
+        ),
+        /* bottom, image */
+        url('../../assets/images/labtop.jpg');
+        background-size: cover;
+        background-position: center top;
+        width: 100%;
+
+    &--intro {
+        max-width:960px;
+        margin:0 auto;
+        padding: 8% 0;
+    }
+
+    &--intro h1 {
+        font-size: 3em;
+        font-weight: 100;
+        text-align:center;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        line-height: 1.5em;
+        margin-bottom: 0;
+        
+        @mixin atMedium {
+            font-size: 6em;
+        }
+    }
+    
+    &--intro h2 {
+        font-size:1em;
+        text-align: center;
+        color: #fff;
+        font-weight:300;
+        text-transform:capitalize;
+        margin-top: 0;
+        margin-bottom: 40px;
+
+        @mixin atMedium {
+            font-size:2em;
+        }
+    }
+
+
+}
