@@ -529,7 +529,7 @@ h3 {
         font-weight: 100;
         text-align:center;
         color: #fff;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         /* letter-spacing: 0.1em; */
         line-height: 1.5em;
         margin-bottom: 0;
@@ -586,9 +586,8 @@ h3 {
 
 }
 
-/* text-align: center; */
-
 .about__content p {
+        text-align: left;
         font-style:normal;
         font-size:1.2em;
         line-height:1.4;
