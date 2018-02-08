@@ -1,12 +1,13 @@
 .about {
     padding: 4% 0;
+    /* text-align: center; */
 
     &__content p {
         font-style:normal;
         font-size:1.2em;
-        line-height:1.2;
+        line-height:1.4;
         font-weight:300;
-        color: $blackboard;
+        /* color: $blackboard; */
         letter-spacing: .03em;
         margin:10px auto;
         padding: 2% 0;

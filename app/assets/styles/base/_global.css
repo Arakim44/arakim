@@ -1,6 +1,7 @@
 body {
     background-color:#f9f9f9;
-    color: $blackboard;
+    color: $fontcolor;
+    font-family: 'Montserrat', sans-serif;
   }
   
   img {
@@ -25,12 +26,10 @@ body {
     font-style:oblique;
   }
 
-  strong {
-    font-style:bold;
- }
+
 
  h1,h2,h3,h4,h5 {
-  font-family:'Roboto', sans-serif;
+  /* font-family:'Roboto', sans-serif; */
   /* font-family: 'proxima-nova', sans-serif; */
   font-style:normal;
  }
@@ -39,6 +38,6 @@ body {
    text-transform: uppercase;
    font-size: 1.4rem;
    padding: 0 0 1% 0;
-   color: $oxblood;
+   color: $blackboard;
    /* font-weight: 800; */
  }

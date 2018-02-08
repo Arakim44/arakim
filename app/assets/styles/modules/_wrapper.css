@@ -1,8 +1,8 @@
 .wrapper {
 
     max-width: 350px;
-    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    text-align: center;
 
 
     @mixin atMedium {

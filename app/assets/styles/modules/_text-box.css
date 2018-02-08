@@ -4,7 +4,7 @@
     width:100%;
     height:auto;
     background-color:#fff;
-    /* margin-bottom:30px; */
+    margin-bottom:40px;
     
     &__content {
         padding: 4% 8%;
@@ -12,20 +12,20 @@
     
     &__content p {
         line-height:1.5;
-        color: $blackboard;
+        /* color: $blackboard; */
         letter-spacing:.03em;
         font-size: 1em;
     }
 
-    /* @mixin atSmall {
-        width:450px;
+    @mixin atSmall {
+        margin-bottom:0;
     }
-  */
+ 
 
     @mixin atMedium {
         height:100%;
         width:350px;
-        /* margin-bottom:0; */
+   
     }
     
     @mixin atLarge {
