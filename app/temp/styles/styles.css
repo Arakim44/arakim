@@ -853,3 +853,17 @@ h3 {
     }
 
 /* @import "modules/_list-inline"; */
+
+.reveal-item {
+        opacity: 0;
+        -webkit-transition: all .5s ease-out;
+        transition: all .5s ease-out;
+        -webkit-transform: scale(.9);
+                transform: scale(.9);
+      }
+
+.reveal-item--is-visible{
+          opacity: 1;
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }

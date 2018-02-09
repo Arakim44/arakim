@@ -5,7 +5,7 @@ import $ from 'jquery';
 import Modal from './modules/Modal';
 
 // var mobileMenu = new MobileMenu();
-new RevealOnScroll($(".work"),"85%");
+new RevealOnScroll($(".work__image-area"),"65%");
 
 var stickyHeader = new StickyHeader();
 var modal = new Modal();
