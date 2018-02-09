@@ -10457,9 +10457,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // var mobileMenu = new MobileMenu();
 // new RevealOnScroll($(".work__image-area"),"85%","fadeIn");
-new _RevealOnScroll2.default((0, _jquery2.default)("#up1"), "85%", "fadeInUp");
-new _RevealOnScroll2.default((0, _jquery2.default)("#up2"), "60%", "fadeInRight");
-new _RevealOnScroll2.default((0, _jquery2.default)("#up3"), "85%", "fadeInLeft");
+// class name: animateUp animateRight animateLeft
+//parameter: fadeInUp fadeInRight fadeInLeft
+new _RevealOnScroll2.default((0, _jquery2.default)(".animateUp"), "85%", "fadeInUp");
+new _RevealOnScroll2.default((0, _jquery2.default)(".animateRight"), "60%", "fadeInRight");
+new _RevealOnScroll2.default((0, _jquery2.default)(".animateLeft"), "85%", "fadeInLeft");
 
 var stickyHeader = new StickyHeader();
 var modal = new _Modal2.default();

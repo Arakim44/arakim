@@ -875,3 +875,33 @@ h3 {
           -webkit-transform: scale(1);
                   transform: scale(1);
         }
+
+.skills {
+    margin: auto;
+}
+
+@media(min-width: 700px){
+        .skills--half-at-med {
+            width:50%;
+            float:left;
+        }
+    }
+
+.skills--skillBar {
+        color: #fff;
+        height: 50px;
+        position: relative;
+        background: #d7cec7;
+        margin: 20px;
+    }
+
+.skills--skillBar--html {
+            width: 80%;
+            animation: Animate-HTML 4s;
+            -webkit-animation: Animate-HTML 4s;
+            -moz-animation: Animate-HTML 4s;
+            -o-animation: Animate-HTML 4s;
+            height: 50px;
+            position: absolute;
+            background-color: #ea8564;
+        }
