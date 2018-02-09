@@ -566,6 +566,14 @@ h3 {
     text-align: center;
 }
 
+@media(min-width:530px){
+
+.wrapper {
+        max-width:500px
+}
+  
+    }
+
 @media(min-width: 700px){
 
 .wrapper {
@@ -594,7 +602,7 @@ h3 {
         font-weight:300;
         /* color: $blackboard; */
         letter-spacing: .03em;
-        margin:10px auto;
+        margin:4% auto;
         padding: 2% 0;
 
     }
@@ -849,7 +857,7 @@ h3 {
     }
 
 .site-footer__social li a:hover {
-        color:#76323f;
+        color:#565656;
     }
 
 /* @import "modules/_list-inline"; */

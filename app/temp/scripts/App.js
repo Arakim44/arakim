@@ -10456,7 +10456,10 @@ var _Modal2 = _interopRequireDefault(_Modal);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // var mobileMenu = new MobileMenu();
-new _RevealOnScroll2.default((0, _jquery2.default)(".work__image-area"), "65%");
+// new RevealOnScroll($(".work__image-area"),"85%","fadeIn");
+new _RevealOnScroll2.default((0, _jquery2.default)("#up1"), "85%", "fadeInUp");
+new _RevealOnScroll2.default((0, _jquery2.default)("#up2"), "60%", "fadeInRight");
+new _RevealOnScroll2.default((0, _jquery2.default)("#up3"), "85%", "fadeInLeft");
 
 var stickyHeader = new StickyHeader();
 var modal = new _Modal2.default();
@@ -10487,11 +10490,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var RevealOnScroll = function () {
-  function RevealOnScroll(els, offset) {
+  function RevealOnScroll(els, offset, dir) {
     _classCallCheck(this, RevealOnScroll);
 
     this.itemsToReveal = els;
     this.offsetPercentage = offset;
+    this.animatedDir = dir;
     this.hideInitially();
     this.createWaypoints();
   }
@@ -10510,7 +10514,8 @@ var RevealOnScroll = function () {
         new Waypoint({
           element: currentItem,
           handler: function handler() {
-            (0, _jquery2.default)(currentItem).addClass("reveal-item--is-visible");
+            // $(currentItem).addClass("reveal-item--is-visible");
+            (0, _jquery2.default)(currentItem).addClass(that.animatedDir);
           },
           offset: that.offsetPercentage
         });

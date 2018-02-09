@@ -4,6 +4,10 @@
     margin: 0 auto;
     text-align: center;
 
+    @mixin atSmall {
+        max-width:500px;
+    }
+
 
     @mixin atMedium {
         max-width: 700px;
