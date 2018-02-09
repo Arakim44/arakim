@@ -569,7 +569,7 @@ h3 {
 @media(min-width:530px){
 
 .wrapper {
-        max-width:500px
+        max-width:490px
 }
   
     }
@@ -577,7 +577,7 @@ h3 {
 @media(min-width: 700px){
 
 .wrapper {
-        max-width: 700px
+        max-width: 650px
 }
     }
 
@@ -632,7 +632,7 @@ h3 {
 @media(min-width: 700px){
 
 .work__image-area {
-            width:350px;
+            width:50%;
             height:300px;
             overflow:hidden
     }
@@ -651,7 +651,7 @@ h3 {
 
 .work__image-area {
             
-            width:480px;
+            width:50%;
             height:300px;
             overflow: hidden
     }
@@ -695,7 +695,7 @@ h3 {
 
 .text-box {
         height:100%;
-        width:350px
+        width:50%
 
 
 
@@ -706,7 +706,7 @@ h3 {
 
 .text-box {
         height:100%;
-        width:480px
+        width:50%
 
 
 

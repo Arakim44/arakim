@@ -5,12 +5,12 @@
     text-align: center;
 
     @mixin atSmall {
-        max-width:500px;
+        max-width:490px;
     }
 
 
     @mixin atMedium {
-        max-width: 700px;
+        max-width: 650px;
     }
 
     @mixin atLarge {
