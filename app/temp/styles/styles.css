@@ -594,7 +594,7 @@ h3 {
 
 }
 
-.about__content p {
+.about__content p{
         text-align: left;
         font-style:normal;
         font-size:1.2em;
@@ -603,13 +603,13 @@ h3 {
         /* color: $blackboard; */
         letter-spacing: .03em;
         margin:4% auto;
-        padding: 2% 0;
+        padding-top: 1%;
 
     }
 
 @media(min-width:530px){
 
-.about__content p {
+.about__content p{
             font-size:1.4em;
             line-height: 1.5
 
@@ -618,6 +618,7 @@ h3 {
     }
 
 .work {
+    
     height: 300px;
     padding: 2% 0;
 
@@ -876,32 +877,80 @@ h3 {
                   transform: scale(1);
         }
 
-.skills {
-    margin: auto;
-}
+.skills--list-2-col{
+        padding-top:2%;
+        list-style: none;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+
+.skills--list-2-col li{
+        text-align: left;
+        padding:2%;
+        text-transform: capitalize;
+    }
+
+.skills--half-at-med {
+        margin: 40px 0;
+    }
 
 @media(min-width: 700px){
+
+.skills {
+        /* &--half-at-med p {
+            margin:0;
+        } */
+}
         .skills--half-at-med {
-            width:50%;
-            float:left;
+            width: 46%;
+            float: left;
+            padding: 0 2%;
         }
+
+        .skills--align-right h4, .skills p{
+            text-align: right;
+        }
+
+        .skills--align-left {
+            text-align:left;
+        }
+
+        
+    .skills--list-2-col li{
+        text-align: right;
+        padding:2%;
+    }
     }
 
-.skills--skillBar {
+.skills--unit {
+        text-align: left;
+        /* padding-bottom: 1em; */
+    }
+
+.skills--unit h5 {
+        margin-bottom: -24px;
+        font-weight: 800;
         color: #fff;
-        height: 50px;
         position: relative;
-        background: #d7cec7;
-        margin: 20px;
+        z-index: 100;
+        padding-left: 14px;
+        text-transform: capitalize;
     }
 
-.skills--skillBar--html {
-            width: 80%;
-            animation: Animate-HTML 4s;
-            -webkit-animation: Animate-HTML 4s;
-            -moz-animation: Animate-HTML 4s;
-            -o-animation: Animate-HTML 4s;
-            height: 50px;
-            position: absolute;
-            background-color: #ea8564;
-        }
+.skills--unit .skills--bar {
+        position: relative;
+        width: 100%;
+        height: 30px;
+    }
+
+.skills--unit .skills--bar .skills--progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        border-radius: 4px;
+        background: #d7cec7;
+        /* box-shadow: 4px 4px 0 #e7e7e7; */
+    }

@@ -1,31 +1,75 @@
 .skills {
-    margin: auto;
+
+    
+    &--list-2-col{
+        padding-top:2%;
+        list-style: none;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+
+    &--list-2-col li{
+        text-align: left;
+        padding:2%;
+        text-transform: capitalize;
+    }
+
+    &--half-at-med {
+        margin: 40px 0;
+    }
 
     @mixin atMedium {
         &--half-at-med {
-            width:50%;
-            float:left;
+            width: 46%;
+            float: left;
+            padding: 0 2%;
         }
+        /* &--half-at-med p {
+            margin:0;
+        } */
+
+        &--align-right h4, p{
+            text-align: right;
+        }
+
+        &--align-left {
+            text-align:left;
+        }
+
+        
+    &--list-2-col li{
+        text-align: right;
+        padding:2%;
+    }
 
     }
-    
-
-    &--skillBar {
+    &--unit {
+        text-align: left;
+        /* padding-bottom: 1em; */
+    }
+    &--unit h5 {
+        margin-bottom: -24px;
+        font-weight: 800;
         color: #fff;
-        height: 50px;
         position: relative;
+        z-index: 100;
+        padding-left: 14px;
+        text-transform: capitalize;
+    }
+    &--unit &--bar {
+        position: relative;
+        width: 100%;
+        height: 30px;
+    }
+    &--unit &--bar &--progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        border-radius: 4px;
         background: $grain;
-        margin: 20px;
-
-        &--html {
-            width: 80%;
-            animation: Animate-HTML 4s;
-            -webkit-animation: Animate-HTML 4s;
-            -moz-animation: Animate-HTML 4s;
-            -o-animation: Animate-HTML 4s;
-            height: 50px;
-            position: absolute;
-            background-color: #ea8564;
-        }
+        /* box-shadow: 4px 4px 0 #e7e7e7; */
     }
 }

@@ -11,7 +11,7 @@ class RevealOnScroll {
   }
 
   hideInitially(){
-    this.itemsToReveal.addClass("reveal-item");
+    // this.itemsToReveal.addClass("reveal-item");
   }
 
   createWaypoints(){

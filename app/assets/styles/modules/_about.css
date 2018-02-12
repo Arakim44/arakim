@@ -2,7 +2,7 @@
     padding: 4% 0;
     
 
-    &__content p {
+    &__content p{
         text-align: left;
         font-style:normal;
         font-size:1.2em;
@@ -11,7 +11,7 @@
         /* color: $blackboard; */
         letter-spacing: .03em;
         margin:4% auto;
-        padding: 2% 0;
+        padding-top: 1%;
         
         
         @mixin atSmall {
