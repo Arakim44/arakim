@@ -1,12 +1,18 @@
 .skills {
 
-    
+    line-height: 1.2em;
+
+    &--sets {
+        padding:20px;
+    }
+ 
     &--list-2-col{
         padding-top:2%;
         list-style: none;
         columns: 2;
         -webkit-columns: 2;
         -moz-columns: 2;
+
     }
 
     &--list-2-col li{
@@ -24,10 +30,11 @@
             width: 46%;
             float: left;
             padding: 0 2%;
-        }
-        /* &--half-at-med p {
             margin:0;
-        } */
+        }
+        &--half-at-med p {
+            margin:0;
+        }
 
         &--align-right h4, p{
             text-align: right;
@@ -49,7 +56,7 @@
         /* padding-bottom: 1em; */
     }
     &--unit h5 {
-        margin-bottom: -24px;
+        margin-bottom: -23px;
         font-weight: 800;
         color: #fff;
         position: relative;
@@ -69,7 +76,7 @@
         width: 0;
         height: 100%;
         border-radius: 4px;
-        background: $grain;
+        background: $tan;
         /* box-shadow: 4px 4px 0 #e7e7e7; */
     }
 }

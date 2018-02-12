@@ -1,15 +1,21 @@
 .site-header {
 
-    background:
-    linear-gradient(
-        rgba($grain,1.0),
-        rgba($grain,0.40)
-        ),
-        /* bottom, image */
-        url('../../assets/images/labtop.jpg');
-        background-size: cover;
-        background-position: center top;
-        width: 100%;
+    background-color: $blackboard;
+    padding: 60px;
+
+    @mixin atMedium {
+        background:
+        linear-gradient(
+            rgba($blackboard,1.0),
+            rgba($blackboard,0.50)
+            ),
+            /* bottom, image */
+            url('../../assets/images/labtop.jpg');
+            background-size: cover;
+            background-position: center top;
+            /* width: 100%; */
+        }
+            
 
     &--intro {
         max-width:960px;

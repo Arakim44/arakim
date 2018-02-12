@@ -496,27 +496,36 @@ h3 {
 
 .site-header {
 
-    background: -webkit-gradient(
-        linear,
-        left top, left bottom,
-        from(rgba(215,206,199,1.0)),
-        to(rgba(215,206,199,0.40))
-        ),
-        
-        url('../../assets/images/labtop.jpg');
-
-    background: linear-gradient(
-        rgba(215,206,199,1.0),
-        rgba(215,206,199,0.40)
-        ),
-        
-        url('../../assets/images/labtop.jpg');
-        background-size: cover;
-        background-position: center top;
-        width: 100%;
+    background-color: #565656;
+    padding: 60px;
 
 
 }
+
+@media(min-width: 700px){
+
+.site-header {
+        background: -webkit-gradient(
+            linear,
+            left top, left bottom,
+            from(rgba(86,86,86,1.0)),
+            to(rgba(86,86,86,0.50))
+            ),
+            
+            url('../../assets/images/labtop.jpg');
+        background: linear-gradient(
+            rgba(86,86,86,1.0),
+            rgba(86,86,86,0.50)
+            ),
+            
+            url('../../assets/images/labtop.jpg');
+            background-size: cover;
+            background-position: center top
+            /* width: 100%; */
+
+
+}
+    }
 
 .site-header--intro {
         max-width:960px;
@@ -610,7 +619,7 @@ h3 {
 @media(min-width:530px){
 
 .about__content p{
-            font-size:1.4em;
+            font-size:1.2em;
             line-height: 1.5
 
     }
@@ -717,10 +726,10 @@ h3 {
 .button {
     padding: 5% 3%;
     /* border-radius: 3em; */
-    border: 3px solid #565656;
+    border: 3px solid #d7cec7;
     letter-spacing: 0.2em;
     text-decoration:none;
-    color: #565656;
+    color: #d7cec7;
     text-align: center;
     display: block;
     font-weight:600;
@@ -732,7 +741,7 @@ h3 {
 
 .button--hover:hover {
         color:#fff;
-        background-color:#565656;
+        background-color:#d7cec7;
         /* transform: scaleX(1.1); */
     }
 
@@ -745,7 +754,13 @@ h3 {
     }
 
 .button--white {
+        border-color:#565656;
         background-color:#d7cec7;
+        color:#565656;
+    }
+
+.button--white:hover {
+        background-color:#565656;
     }
 
 .contact {
@@ -791,7 +806,7 @@ h3 {
 }
 
 .site-footer {
-    background-color: #d7cec7;
+    background-color: #565656;
     color:#fff;
     padding: 2% 0;
     widows: 100%;
@@ -809,7 +824,7 @@ h3 {
         font-style:normal;
         font-weight:300;
         line-height: 1.4;
-        color:#fff;
+        color:#d7cec7;
         font-size:1em;
         
         
@@ -849,7 +864,7 @@ h3 {
     }
 
 .site-footer__social li a {
-        color: #fff;
+        color: #d7cec7;
         padding:.2rem;
         font-size:1.8em;
         font: weight 600;
@@ -858,7 +873,7 @@ h3 {
     }
 
 .site-footer__social li a:hover {
-        color:#565656;
+        color:#c09f80;
     }
 
 /* @import "modules/_list-inline"; */
@@ -877,12 +892,22 @@ h3 {
                   transform: scale(1);
         }
 
+.skills {
+
+    line-height: 1.2em;
+}
+
+.skills--sets {
+        padding:20px;
+    }
+
 .skills--list-2-col{
         padding-top:2%;
         list-style: none;
         columns: 2;
         -webkit-columns: 2;
         -moz-columns: 2;
+
     }
 
 .skills--list-2-col li{
@@ -896,16 +921,14 @@ h3 {
     }
 
 @media(min-width: 700px){
-
-.skills {
-        /* &--half-at-med p {
-            margin:0;
-        } */
-}
         .skills--half-at-med {
             width: 46%;
             float: left;
             padding: 0 2%;
+            margin:0;
+        }
+        .skills--half-at-med p {
+            margin:0;
         }
 
         .skills--align-right h4, .skills p{
@@ -929,7 +952,7 @@ h3 {
     }
 
 .skills--unit h5 {
-        margin-bottom: -24px;
+        margin-bottom: -23px;
         font-weight: 800;
         color: #fff;
         position: relative;
@@ -951,6 +974,6 @@ h3 {
         width: 0;
         height: 100%;
         border-radius: 4px;
-        background: #d7cec7;
+        background: #c09f80;
         /* box-shadow: 4px 4px 0 #e7e7e7; */
     }

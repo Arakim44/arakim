@@ -1,5 +1,5 @@
 .site-footer {
-    background-color: $grain;
+    background-color: $blackboard;
     color:#fff;
     padding: 2% 0;
     widows: 100%;
@@ -14,7 +14,7 @@
         font-style:normal;
         font-weight:300;
         line-height: 1.4;
-        color:#fff;
+        color:$grain;
         font-size:1em;
         
         
@@ -53,7 +53,7 @@
     }
 
     &__social li a {
-        color: #fff;
+        color: $grain;
         padding:.2rem;
         font-size:1.8em;
         font: weight 600;
@@ -62,7 +62,7 @@
     }
 
     &__social li a:hover {
-        color:$blackboard;
+        color:$tan;
     }
 
    

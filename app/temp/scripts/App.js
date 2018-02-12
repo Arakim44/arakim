@@ -10505,7 +10505,7 @@ var RevealOnScroll = function () {
   _createClass(RevealOnScroll, [{
     key: 'hideInitially',
     value: function hideInitially() {
-      // this.itemsToReveal.addClass("reveal-item");
+      this.itemsToReveal.addClass("reveal-item");
     }
   }, {
     key: 'createWaypoints',
