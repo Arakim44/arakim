@@ -13,5 +13,5 @@ new RevealOnScroll($(".animateRight"),"60%","fadeInRight");
 new RevealOnScroll($(".animateLeft"),"85%","fadeInLeft");
 
 
-var stickyHeader = new StickyHeader();
+
 var modal = new Modal();

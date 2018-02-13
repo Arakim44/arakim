@@ -1,18 +1,25 @@
 .work {
     
-    height: 300px;
+    height: 350px;
     padding: 2% 0;
+
+    @mixin atSmall {
+        height: 390px;
+
+    }
+
 
     &__image-area {
         float:left;
         width:100%;
         height:auto;
- 
+
+       
 
  
         @mixin atMedium {
             width:50%;
-            height:300px;
+            height:350px;
             overflow:hidden;
 
             &--left{

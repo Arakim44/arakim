@@ -10463,7 +10463,6 @@ new _RevealOnScroll2.default((0, _jquery2.default)(".animateUp"), "85%", "fadeIn
 new _RevealOnScroll2.default((0, _jquery2.default)(".animateRight"), "60%", "fadeInRight");
 new _RevealOnScroll2.default((0, _jquery2.default)(".animateLeft"), "85%", "fadeInLeft");
 
-var stickyHeader = new StickyHeader();
 var modal = new _Modal2.default();
 
 /***/ }),
@@ -11320,6 +11319,7 @@ var Modal = function () {
 
     this.openModalButton = (0, _jquery2.default)(".open-modal");
     this.modal = (0, _jquery2.default)(".modal");
+    // this.dataModal = $(".open-modal")
     this.closeModalButton = (0, _jquery2.default)(".modal__close");
     this.events();
   }
@@ -11329,6 +11329,12 @@ var Modal = function () {
     value: function events() {
       //clicing the open modal button.
       this.openModalButton.click(this.openModal.bind(this));
+      // this.openModalButton.click(function(){
+      //   var id = $(this).attr('id');
+      //   console.log(id);
+      // })
+
+      console.log(this.openModalButton);
 
       //clicking the x close modal openModalButton
       this.closeModalButton.click(this.closeModal.bind(this));
