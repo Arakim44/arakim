@@ -527,6 +527,13 @@ h3 {
 }
     }
 
+.site-header--logo {
+        position : absolute;
+        margin-left: 38%;
+        /* padding-bottom:20%; */
+        text-align: center;
+    }
+
 .site-header--intro {
         max-width:960px;
         margin:0 auto;
@@ -534,7 +541,7 @@ h3 {
     }
 
 .site-header--intro h1 {
-        font-size: 2rem;
+        font-size: 1.5em;
         font-weight: 100;
         text-align:center;
         color: #fff;
@@ -547,16 +554,16 @@ h3 {
 @media(min-width: 700px){
 
 .site-header--intro h1 {
-            font-size: 6em
+            font-size: 3em
     }
     }
 
 .site-header--intro h2 {
-        font-size:1em;
+        font-size:.8em;
         text-align: center;
         color: #fff;
         font-weight:300;
-        text-transform:capitalize;
+        /* text-transform:capitalize; */
         margin-top: 0;
         margin-bottom: 40px;
     }
@@ -564,7 +571,7 @@ h3 {
 @media(min-width: 700px){
 
 .site-header--intro h2 {
-            font-size:2em
+            font-size:1.5em
     }
     }
 
@@ -593,20 +600,24 @@ h3 {
 @media(min-width: 1010px){
 
 .wrapper {
-        max-width: 960px
+        max-width: 720px
 }
     }
 
 .about {
-    padding: 4% 0;
+    padding: 8% 0;
 
 
 }
 
+.about__content {
+        padding-bottom:4%;
+    }
+
 .about__content p{
         text-align: left;
         font-style:normal;
-        font-size:1.2em;
+        font-size: 9px;
         line-height:1.4;
         font-weight:300;
         /* color: $blackboard; */
@@ -619,7 +630,7 @@ h3 {
 @media(min-width:530px){
 
 .about__content p{
-            font-size:1.2em;
+            font-size:.9em;
             line-height: 1.5
 
     }

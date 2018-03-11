@@ -15,6 +15,13 @@
             background-position: center top;
             /* width: 100%; */
         }
+
+    &--logo {
+        position : absolute;
+        margin-left: 38%;
+        /* padding-bottom:20%; */
+        text-align: center;
+    }    
             
 
     &--intro {
@@ -24,7 +31,7 @@
     }
 
     &--intro h1 {
-        font-size: 2rem;
+        font-size: 1.5em;
         font-weight: 100;
         text-align:center;
         color: #fff;
@@ -34,21 +41,21 @@
         margin-bottom: 0;
         
         @mixin atMedium {
-            font-size: 6em;
+            font-size: 3em;
         }
     }
     
     &--intro h2 {
-        font-size:1em;
+        font-size:.8em;
         text-align: center;
         color: #fff;
         font-weight:300;
-        text-transform:capitalize;
+        /* text-transform:capitalize; */
         margin-top: 0;
         margin-bottom: 40px;
 
         @mixin atMedium {
-            font-size:2em;
+            font-size:1.5em;
         }
     }
 
