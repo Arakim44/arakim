@@ -641,6 +641,15 @@ h3 {
   
     }
 
+.about__skills {
+
+    }
+
+.about__resume {
+
+        
+    }
+
 .work {
     
     height: 350px;
@@ -836,7 +845,24 @@ h3 {
     }
 
 .button--hire {
-        font-size: .75em;
+        font-size: .5em;
+        margin:0 auto;
+       
+
+    }
+
+@media(min-width:530px){
+
+.button--hire {
+            font-size:.75em;
+            margin:0 auto;
+            height:18.4px;
+            width: 270.362px;
+            padding:17.7px 8.819px
+       
+
+    }
+  
     }
 
 .contact {
@@ -845,7 +871,7 @@ h3 {
 
     /* font-weight:100; */
     background-color:#d7cec7;
-    padding:5% 0;
+    padding:20% 0;
     margin-top: 5%;
     clear:both;
 
@@ -859,12 +885,25 @@ h3 {
     }
 
 .contact__content h3 {
-        font-size:1.875em;
+        font-size:1.2em;
         padding: 1% 0;
         color: #fff;
-        font-weight:400;
+        font-weight:800;
         letter-spacing: 0.04em;
         margin-bottom: 0;
+    }
+
+@media(min-width: 700px){
+
+.contact {
+        padding:5% 0
+
+
+}
+
+        .contact__content h3{
+            font-size:1.7em;
+        }
     }
 
 .contact__content p {
@@ -895,7 +934,7 @@ h3 {
 
 .site-footer__content {
         max-width: 960px;
-        padding: 2% 0;
+        padding: 18% 0;
         margin:0 auto;
         font-style:normal;
         font-weight:300;
@@ -916,6 +955,19 @@ h3 {
 
 .site-footer__social li {
         display:inline;
+    }
+
+@media(min-width:530px){
+        .site-footer__content {
+            padding: 10% 0;
+        }
+  
+    }
+
+@media(min-width: 700px){
+        .site-footer__content {
+            padding: 2% 0;
+        }
     }
 
 @media(min-width: 1010px){
@@ -949,10 +1001,8 @@ h3 {
     }
 
 .site-footer__social li a:hover {
-        color:#c09f80;
+        color:#93a4aa;
     }
-
-/* @import "modules/_list-inline"; */
 
 .reveal-item {
         opacity: 0;
@@ -967,8 +1017,6 @@ h3 {
           -webkit-transform: scale(1);
                   transform: scale(1);
         }
-
-/* @import "modules/_skills"; */
 
 .modal {
     position: fixed;

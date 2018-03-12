@@ -9,7 +9,7 @@
 
     &__content {
         max-width: 960px;
-        padding: 2% 0;
+        padding: 18% 0;
         margin:0 auto;
         font-style:normal;
         font-weight:300;
@@ -30,6 +30,18 @@
 
     &__social li {
         display:inline;
+    }
+
+    @mixin atSmall {
+        &__content {
+            padding: 10% 0;
+        }
+    }
+
+    @mixin atMedium {
+        &__content {
+            padding: 2% 0;
+        }
     }
     
     
@@ -62,7 +74,7 @@
     }
 
     &__social li a:hover {
-        color:$tan;
+        color:$fontcolor;
     }
 
    
