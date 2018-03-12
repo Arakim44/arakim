@@ -34,5 +34,10 @@
         background-color:$blackboard;
     }
 
+    &--hire {
+        font-size: .75em;
+    }
+
+
 
 }

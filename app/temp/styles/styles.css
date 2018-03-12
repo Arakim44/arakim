@@ -488,7 +488,7 @@ h1,h2,h3,h4,h5 {
 
 h3 {
    text-transform: uppercase;
-   font-size: 1.4rem;
+   font-size: 1rem;
    padding: 0 0 1% 0;
    color: #565656;
    /* font-weight: 800; */
@@ -537,7 +537,7 @@ h3 {
 .site-header--intro {
         max-width:960px;
         margin:0 auto;
-        padding: 8% 0;
+        padding: 12% 0;
     }
 
 .site-header--intro h1 {
@@ -612,6 +612,10 @@ h3 {
 
 .about__content {
         padding-bottom:4%;
+    }
+
+.about__title {
+        color:#d7cec7;
     }
 
 .about__content p{
@@ -741,7 +745,7 @@ h3 {
         line-height:1.5;
         /* color: $blackboard; */
         letter-spacing:.03em;
-        font-size: 1em;
+        font-size: .8em;
     }
 
 .text-box__content h3 {
@@ -804,6 +808,7 @@ h3 {
     margin-top: 4%;
 
 
+
 }
 
 .button--hover:hover {
@@ -830,12 +835,16 @@ h3 {
         background-color:#565656;
     }
 
+.button--hire {
+        font-size: .75em;
+    }
+
 .contact {
     width:100%;
     color:white;
 
     /* font-weight:100; */
-    background-color:#c09f80;
+    background-color:#d7cec7;
     padding:5% 0;
     margin-top: 5%;
     clear:both;
@@ -959,91 +968,7 @@ h3 {
                   transform: scale(1);
         }
 
-.skills {
-
-    line-height: 1.2em;
-}
-
-.skills--sets {
-        padding:20px;
-    }
-
-.skills--list-2-col{
-        padding-top:2%;
-        list-style: none;
-        columns: 2;
-        -webkit-columns: 2;
-        -moz-columns: 2;
-
-    }
-
-.skills--list-2-col li{
-        text-align: left;
-        padding:2%;
-        text-transform: capitalize;
-    }
-
-.skills--half-at-med {
-        margin: 40px 0;
-    }
-
-@media(min-width: 700px){
-        .skills--half-at-med {
-            width: 46%;
-            float: left;
-            padding: 0 2%;
-            margin:0;
-        }
-        .skills--half-at-med p {
-            margin:0;
-        }
-
-        .skills--align-right h4, .skills p{
-            text-align: right;
-        }
-
-        .skills--align-left {
-            text-align:left;
-        }
-
-        
-    .skills--list-2-col li{
-        text-align: right;
-        padding:2%;
-    }
-    }
-
-.skills--unit {
-        text-align: left;
-        /* padding-bottom: 1em; */
-    }
-
-.skills--unit h5 {
-        margin-bottom: -23px;
-        font-weight: 800;
-        color: #fff;
-        position: relative;
-        z-index: 100;
-        padding-left: 14px;
-        text-transform: capitalize;
-    }
-
-.skills--unit .skills--bar {
-        position: relative;
-        width: 100%;
-        height: 30px;
-    }
-
-.skills--unit .skills--bar .skills--progress {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0;
-        height: 100%;
-        border-radius: 4px;
-        background: #c09f80;
-        /* box-shadow: 4px 4px 0 #e7e7e7; */
-    }
+/* @import "modules/_skills"; */
 
 .modal {
     position: fixed;

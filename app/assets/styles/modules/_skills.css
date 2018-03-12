@@ -1,6 +1,11 @@
 .skills {
 
     line-height: 1.2em;
+    font-size:.8em;
+
+    &--padding-up {
+        padding-top:6%;
+    }
 
     &--sets {
         padding:20px;
@@ -37,7 +42,7 @@
         }
 
         &--align-right h4, p{
-            text-align: right;
+            text-align: left;
         }
 
         &--align-left {
@@ -46,8 +51,9 @@
 
         
     &--list-2-col li{
-        text-align: right;
-        padding:2%;
+        text-align: left;
+        /* padding:2%; */
+        color:#fff;
     }
 
     }
@@ -56,7 +62,7 @@
         /* padding-bottom: 1em; */
     }
     &--unit h5 {
-        margin-bottom: -23px;
+        /* margin-bottom: -23px; */
         font-weight: 800;
         color: #fff;
         position: relative;
@@ -67,16 +73,16 @@
     &--unit &--bar {
         position: relative;
         width: 100%;
-        height: 30px;
+        /* height: 30px; */
     }
-    &--unit &--bar &--progress {
+    
+    /* &--unit &--bar &--progress {
         position: absolute;
         top: 0;
         left: 0;
         width: 0;
         height: 100%;
         border-radius: 4px;
-        background: $tan;
-        /* box-shadow: 4px 4px 0 #e7e7e7; */
-    }
+        background: $grain;
+    } */
 }

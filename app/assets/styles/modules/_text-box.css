@@ -22,7 +22,7 @@
         line-height:1.5;
         /* color: $blackboard; */
         letter-spacing:.03em;
-        font-size: 1em;
+        font-size: .8em;
     }
 
     &__content h3 {
