@@ -35,9 +35,11 @@
     }
 
     &--hire {
+        color:$fontcolor;
         font-size: .5em;
         margin:0 auto;
-
+        border-color:$fontcolor;
+        
         @mixin atSmall {
             font-size:.75em;
             margin:0 auto;
@@ -45,6 +47,13 @@
             width: 270.362px;
             padding:17.7px 8.819px;   
         }
+        
+        
+    }
+
+    &--hire:hover {
+        color:#fff;
+        background-color:$fontcolor;
        
 
     }

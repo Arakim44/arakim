@@ -3,6 +3,10 @@
     height: 350px;
     padding: 4% 0;
 
+    &__container{
+        padding:20px;
+    }
+
     @mixin atSmall {
         height: 310px;
 
