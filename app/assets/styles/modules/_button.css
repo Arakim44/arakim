@@ -1,20 +1,28 @@
 .button {
     padding: 5% 3%;
     /* border-radius: 3em; */
-    border: 3px solid $grain;
+    border: 3px solid $fontcolor;
     letter-spacing: 0.2em;
     text-decoration:none;
-    color: $grain;
+    color: $fontcolor;
     text-align: center;
     display: block;
     font-weight:600;
     text-transform: uppercase;
-    margin-top: 4%;
+    margin-top: 10%;
 
     &--hover:hover {
         color:#fff;
-        background-color:$grain;
+        background-color:$fontcolor;
         /* transform: scaleX(1.1); */
+    }
+
+    &--no-margin-top {
+        margin-top:4%;
+    }
+
+    &--text-white {
+        color:white;
     }
 
     &--small {
@@ -27,7 +35,7 @@
     
     &--white {
         border-color:$blackboard;
-        background-color:$grain;
+        background-color:$fontcolor;
         color:$blackboard;
     }
     &--white:hover {
@@ -54,7 +62,6 @@
     &--hire:hover {
         color:#fff;
         background-color:$fontcolor;
-       
 
     }
 

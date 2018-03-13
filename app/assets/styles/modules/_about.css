@@ -12,7 +12,7 @@
     &__container p{
         text-align: left;
         font-style:normal;
-        font-size: 9px;
+        font-size: .8em;
         line-height:1.4;
         font-weight:300;
         /* color: $blackboard; */
@@ -20,17 +20,28 @@
         margin-top:3%;
         margin-bottom:0;
         padding-top: 1%;
+        padding-left:5% ;
+        padding-right:5%;
          
         
         @mixin atSmall {
             font-size:.9em;
             line-height: 1.7;
+            padding-left:0% ;
+            padding-right:0%;
+             
+            
+
         }
 
     }
 
     &__content {
-        padding-top: 20px;
+        padding: 20px 0;
+    }
+
+    &--padding-b {
+        padding-bottom:3%; 
     }
  
 

@@ -14,7 +14,7 @@
         font-style:normal;
         font-weight:300;
         line-height: 1.4;
-        color:$grain;
+        color:$fontcolor;
         font-size:1em;
         
         
@@ -65,7 +65,7 @@
     }
 
     &__social li a {
-        color: $grain;
+        color: $fontcolor;
         padding:.2rem;
         font-size:1.8em;
         font: weight 600;
@@ -74,7 +74,7 @@
     }
 
     &__social li a:hover {
-        color:$fontcolor;
+        color:#fff;
     }
 
    
